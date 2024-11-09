@@ -1,0 +1,406 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+ }
+ .main-container{
+    width: 100%;
+    height: auto;
+ }
+ img{
+    width: 12%;
+    shape-image-threshold: inherit;
+    background-color:rgb(255, 187, 0); 
+    margin: 12px;
+    box-decoration-break: slice;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 15%;
+    
+
+ }
+ nav{
+    width: 100%;
+    height: 15%;
+    position: sticky;
+    top: 0px;
+   
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    color: green;
+    padding: 16px;
+    padding-inline:35px;
+    box-shadow: 3px 3px 3px;
+
+    
+
+ }
+ .left-nav ul{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    border-style: dotted;
+ }
+   
+ .left-nav{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+ }
+ .right-nav{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+ }
+ button{
+    width: 20%;
+    height: 40px;
+    border-radius: 12px;
+     border-color: black;
+     margin: 12px;
+     border-radius: 30px;
+    
+ }
+ .right-nav button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 170);
+    text-shadow: 20px;
+    font-style: italic;
+
+ }
+ ul li a{
+    text-decoration: none;
+    text-shadow: 10%;
+    color: black;
+
+ }
+ .right-nav a{
+    color: black;
+    text-decoration: none;
+    text-shadow: 15px;
+    
+ }
+
+ .left-nav ul li a:hover{
+    color: green;
+}
+.right-nav a:hover{
+    color: green;
+}
+
+
+.hero-sectiion{
+   width: 100%;
+   height: auto;
+   padding-top: 25px;
+}
+.hero-container1{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   margin-top: 25px;
+}
+
+.hero-container2{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   margin-top: 25px;
+}
+
+
+.hero-container3{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   margin-top: 25px;
+}
+
+.hero-container4{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   margin-top: 25px;
+}
+ .left-section1{
+     
+   width: 50%;
+   height: 500px;
+   border: 1px solid white;
+   background-image: url(./137-95019.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.left-section2{
+     
+   width: 50%;
+   height: 500px;
+   border: 1px solid white;
+   background-image: url(./image-1686149346-2647-710x488\ co.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.left-section3{  
+   width:20%;
+   height:500px;
+   border: 1px solid white;
+   background-image: url(./Iced-Hazelnut-Latte-SQUARE.webp);
+   background-position: center;
+   background-size: cover;
+}
+.left-section4{
+     
+   width: 50%;
+   height: 500px;
+   border: 1px solid white;
+   background-image: url(./brown-sugar-shaken-espresso-recipe-8-800x1200.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.right-section1{
+   width: 50%;
+   height: 500px;
+   border: 1px solid green;
+   background-color: rgb(155, 9, 9);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   font-size: 25px;
+}
+.right-section2{
+   width: 50%;
+   height: 500px;
+   border: 1px solid green;
+   background-color: green;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   font-size: 25px;
+}
+.right-section3{
+   width: 100%;
+   height: 600px;
+   border: 1px solid green;
+   background-color: rgb(31, 191, 151);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   font-size: 25px;
+}
+.right-section4{
+   width: 50%;
+   height: 500px;
+   border: 1px solid green;
+   background-color: rgb(233, 217, 76);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   font-size: 25px;
+}
+.right-section1 h4{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 12px;
+   text-decoration-line: underline;
+   padding-block: 16px;
+}
+.right-section1 p{
+   font-style: italic;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   font-weight: 711;
+}
+
+.right-section2 h4{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 12px;
+   text-decoration-line: underline;
+   padding-block: 16px;
+}
+.right-section2 p{
+   font-style: italic;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   font-weight: 711;
+}
+
+.right-section3 h4{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 12px;
+   text-decoration-line: underline;
+   padding-block: 16px;
+}
+.right-section3 p{
+   font-style: italic;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   font-weight: 711;
+}
+
+.right-section4 h4{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 12px;
+   text-decoration-line: underline;
+   padding-block: 16px;
+}
+.right-section4 p{
+   font-style: italic;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   font-weight: 711;
+}
+
+.right button{
+   width: 150px;
+   height: 200px;
+   color: black;
+   background-color: aliceblue;
+   border-radius: 40px;
+}
+ h6{
+   width: 100%;
+   height: auto;
+   margin-top: 20px;
+   font-size: 19px;
+   text-align: center;
+   text-decoration: solid;
+   /* display: flex; */
+   /* align-items: center; */
+   /* justify-content: center; */
+ }
+ p{
+   width: 100%;
+   height: auto;
+   margin-top: 30px;
+   font-family: sans-serif;
+   font-style: italic;
+   font-size: 18px;
+   text-align: center;
+ }
+ .footer-box{
+   width: 100%;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ .footer-box ul{
+   list-style: none;
+ }
+ .footer li{
+   margin-block: 10px;
+   font-size: 23px;
+ }
+ .footer li :hover{
+   color: green;
+ }
+ .footer2 li{
+   margin-block: 10px;
+   font-size: 23px;
+ }
+ .footer2 li :hover{
+   color: rgb(255, 0, 191);
+ }
+ .footer3 li{
+   margin-block: 10px;
+   font-size: 23px;
+ }
+ .footer3 li :hover{
+   color: rgb(255, 0, 0);
+ }
+ .footer4 li{
+   margin-block: 10px;
+   font-size: 23px;
+ }
+ .footer4 li :hover{
+   color: rgb(0, 200, 250);
+ }
+.hero-container4 .right-section{
+   background-color: red;
+}
+ .footerul{
+   text-decoration: none;
+   text-align: center;
+
+ }
+ .footer ul h5{
+   font-size: 25px;
+ }
+
+ .footer2 ul h5{
+   font-size: 25px;
+ }
+ .footer3 ul h5{
+   font-size: 25px;
+ }
+ .footer4 ul h5{
+   font-size: 25px;
+ }
+ .left-section {
+   background-image: url(./Iced-Hazelnut-Latte-SQUARE.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+ }
+.main-container hr{
+   width: 100%;
+   height: auto;
+   box-shadow: 2px    gray;
+
+   
+}
+ .box{
+   width: 100%;
+   height: 50px;;
+   display: flex;
+   align-items: center;
+ }
+ .icon-box{
+   width: auto;
+   height: auto;
+   position: fixed;
+   top: 100px;
+   right: 0px;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+   flex-direction: column;
+   font-size: 35px;
+ }
+ .icon-box i:hover{
+   flex-direction: column;
+   color: burlywood;
+   box-shadow: 50px;
+   background-color: grey;
+   width: 50px    ;
+   border-radius: 50px;
+   text-align: center;
+   height: 50px;
+   
+ }
+ .icon-box i{
+   margin-top: 25px;
+ }
